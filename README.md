@@ -6,16 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Клонировать репозиторий:
 
-  git clone <URL>
-  cd atomic-knight
+  `git clone <URL>`
+  `cd atomic-knight`
 
 2. Установить зависимости:
 
-  npm install
+  `npm install`
 
 3. Запустить приложение:
 
-  ng serve
+  `ng serve`
 
 4. Открыть браузер и перейти по адресу:
 
