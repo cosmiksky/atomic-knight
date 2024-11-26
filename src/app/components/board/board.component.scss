@@ -6,6 +6,7 @@
   max-width: 600px;
   aspect-ratio: 1;
   margin: auto;
+  border: 1px solid #c96c16;
 }
 
 .row {
@@ -17,12 +18,11 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  border: 1px solid #ddd;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &.even {
-    background-color: #da7516;
+    background-color: #c96c16;
   }
   &.odd {
     background-color: #eee;
