@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Клонировать репозиторий:
 
-  ```git clone <URL>```
+  ```git clone <URL>``` < br / >
   ```cd atomic-knight```
 
 2. Установить зависимости:
