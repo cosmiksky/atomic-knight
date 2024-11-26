@@ -1,0 +1,17 @@
+<div class="board">
+  <div *ngFor="let row of gameService.board; let i = index" class="row">
+    <div
+      *ngFor="let cell of row; let j = index"
+      class="cell"
+      [ngClass]="{
+        'even': isEven(i, j) && !isHighlighted(i, j),
+        'odd': isOdd(i, j) && !isHighlighted(i, j),
+        'highlight': isHighlighted(i, j)
+      }"
+      (click)="onCellClick(i, j)"
+    >
+      {{ cell !== 0 ? cell : '' }}
+    </div>
+  </div>
+</div>
+<button class="reset-button" (click)="resetGame()">Начать заново</button>
